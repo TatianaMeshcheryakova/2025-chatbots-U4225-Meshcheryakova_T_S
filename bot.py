@@ -487,7 +487,7 @@ async def send_reminder(context: ContextTypes.DEFAULT_TYPE, reminder_id: str, de
 def main():
     """Основная функция для запуска бота"""
     # Получаем конфигурацию из переменных окружения
-    bot_token = os.environ.get('BOT_TOKEN')
+    bot_token = os.environ.get('BOT_TOKEN', '8439203069:AAGJIcvvOaISYrswAhcUoSM8X_nfz219DR8')
     url_webhook = os.environ.get('URL_WEBHOOK')  # публичный URL вашего сервера
     PORT = int(os.environ.get('PORT', '8080'))   # порт по умолчанию 8080
     WEBHOOK_PATH = '/webhook/'                  # фиксированный путь вебхука
