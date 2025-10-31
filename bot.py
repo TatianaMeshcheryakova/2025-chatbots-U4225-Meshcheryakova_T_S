@@ -3,7 +3,7 @@
 """
 Telegram-бот "koshka_vse_uspevaet_bot" - ассистент для управления задачами
 Автор: AI Assistant
-Версия: 1.0
+Версия: 1.0 (Тест перезапуска)
 """
 
 import logging
